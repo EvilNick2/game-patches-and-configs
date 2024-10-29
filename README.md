@@ -65,6 +65,7 @@ These are some mods that I really enjoy and figured I might link them here.
 	* [Fonsecker Sound Pack Part 3](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-3.12240/)
 	* [Fonsecker Sound Pack Part 4 (Porsche Pack)](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-4-porsche-pack.13468/)
 	* [ACC Curbs and Surface sounds for AC](https://www.racedepartment.com/downloads/acc-curbs-and-surface-sounds-for-ac.61378/)
+	* [Nyanborghini Purracan Skin](https://www.overtake.gg/downloads/nyanborghini-purracan.28258/)
 	* [Porsche 992 GT3 RS 2023 3 Pack](https://www.patreon.com/posts/80851956)
 	* [Aston Martin DB11](https://assettocorsamods.io/cars/street/aston_martin_db111/)
 	* [Shutoko Revival Project](https://shutokorevivalproject.com/)
