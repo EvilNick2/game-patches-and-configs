@@ -1,0 +1,17 @@
+{
+  "colorPalette": false,
+  "simpleNailPhysics": true,
+  "bloodStainChance": 0.5,
+  "mouseSensitivity": 15.0,
+  "frameRateLimit": 4,
+  "vSync": false,
+  "cyberGrind.customGrid_2": "a-vr-blue.png",
+  "cyberGrind.customGrid_1": "a-vr-blue.png",
+  "cyberGrind.customGlow_0": "circuit-blue-lit.png",
+  "cyberGrind.customGlow_1": "circuit-blue-lit.png",
+  "cyberGrind.customSkybox": "Skyboxes\\planet6.png",
+  "cyberGrind.customGrid_0": "a-vr-blue.png",
+  "cyberGrind.customGlow_2": "circuit-blue-lit.png",
+  "simpleExplosions": false,
+  "cyberGrind.enabledPatterns": "{\"enabledPatterns\":[\"BigBridge.cgp\",\"Cliffs.cgp\",\"LowCover.cgp\",\"Pit.cgp\"],\"enabledPatternPacks\":[]}"
+}
