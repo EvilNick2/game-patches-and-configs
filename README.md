@@ -48,31 +48,17 @@ The above example would correspond to the following path in your computer: `<You
 
 **One last thing:** some files could not be added to the repository due to file size, so I'll be linking them below.
 
-## Mods
-These are some mods that I really enjoy and figured I might link them here.
-
-* **Assetto Corsa**
-	* [Content Manager](https://assettocorsa.club/content-manager.html)
-	* [Custom Shaders Patch](https://acstuff.ru/patch/)
-	* [CMRT Essential HUD](https://www.overtake.gg/downloads/cmrt-essential-hud.69475/)
-	* [SimHub](https://www.simhubdash.com/)
-		* [ACC HUD Overlay](https://www.overtake.gg/downloads/acc-hud-simhub.60807/)
-	* [C13 AEGIS Post Processing Filter](https://www.overtake.gg/downloads/c13-aegis-post-processing-filter.59979/)
-	* [Sol](https://www.overtake.gg/downloads/sol.24914/)
-	* [Pure](https://www.patreon.com/peterboese)
-	* [Fonsecker Sound Pack Part 1](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-1.7226/)
-	* [Fonsecker Sound Pack Part 2](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-2.10230/)
-	* [Fonsecker Sound Pack Part 3](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-3.12240/)
-	* [Fonsecker Sound Pack Part 4 (Porsche Pack)](https://www.racedepartment.com/downloads/fonsecker-sound-pack-part-4-porsche-pack.13468/)
-	* [ACC Curbs and Surface sounds for AC](https://www.racedepartment.com/downloads/acc-curbs-and-surface-sounds-for-ac.61378/)
-	* [Nyanborghini Purracan Skin](https://www.overtake.gg/downloads/nyanborghini-purracan.28258/)
-	* [Porsche 992 GT3 RS 2023 3 Pack](https://www.patreon.com/posts/80851956)
-	* [Aston Martin DB11](https://assettocorsamods.io/cars/street/aston_martin_db111/)
-	* [Shutoko Revival Project](https://shutokorevivalproject.com/)
-	<br/><br/>
+## Mods, patches and source ports
+Have a look at [this file](./MODS_AND_PATCHES.md) for a full list of mods and other patches.
 
 ## Steam launch parameters
 To use these: right click the game > Properties > Launch Options
+
+- **BioShock**
+```
+-nointro
+```
+<br/>
 
 - **DOOM**
 ```
@@ -80,13 +66,21 @@ To use these: right click the game > Properties > Launch Options
 ```
 <br/>
 
+- **DOOM 3**
+```
++set g_fov 120 +set g_gunX -2 +set g_gunZ -0.5 +set r_fullscreen 1
+```
+<br/>
+
 - **Half-Life** (and general GoldSrc Engine games)
 ```
 -novid -noforcemaccel -noforcemparms -noforcemspd -nojoy -width [MONITOR WIDTH] -height [MONITOR HEIGHT] -nomsaa -nofbo +gl_vsync 0 +fps_max [MONITOR REFRESH RATE] +fps_override 1 +rate 20000 +cl_cmdrate 106 +cl_updaterate 101
 ```
-If using Xash3D FWGS, add `-console` to enable the console
+Replace `[MONITOR WIDTH]` and `[MONITOR HEIGHT]` with your monitor's resolution, and `[MONITOR REFRESH RATE]` with your monitor's native refresh rate.
 
-If playing Opposing Force, make sure `fps_max` is equal or lower than 120. Anything higher will break rope physics
+If using Xash3D FWGS, add `-console` to enable the console.
+
+If playing Opposing Force, make sure `fps_max` is equal or lower than 120. Anything higher will break rope physics.
 
 <br/>
 
@@ -94,6 +88,7 @@ If playing Opposing Force, make sure `fps_max` is equal or lower than 120. Anyth
 ```
 -novid -nojoy -w [MONITOR WIDTH] -h [MONITOR HEIGHT] +fps_max [MONITOR REFRESH RATE] -high +mat_motion_blur_percent_of_screen_max 0 +mat_postprocess_enable 0
 ```
+Replace `[MONITOR WIDTH]` and `[MONITOR HEIGHT]` with your monitor's resolution, and `[MONITOR REFRESH RATE]` with your monitor's native refresh rate.
 <br/>
 
 - **Half-Life: Alyx**
