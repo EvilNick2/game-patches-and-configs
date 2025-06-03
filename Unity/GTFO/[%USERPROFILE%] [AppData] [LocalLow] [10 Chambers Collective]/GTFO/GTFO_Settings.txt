@@ -11,7 +11,7 @@
     "LobbySlotPermissions": [
       "Human",
       "Human",
-      "Human"
+      "Bot"
     ]
   },
   "Gameplay": {
@@ -29,25 +29,25 @@
       "Value": false
     },
     "AimToggle": {
-      "Value": true
+      "Value": false
     },
     "SeparateUse": {
-      "Value": true
+      "Value": false
     },
     "HideSyringeNeedle": {
       "Value": false
     },
     "InertiaAmount": {
-      "Value": 0.45
+      "Value": 1.0
     },
     "CameraShakeAmount": {
-      "Value": 0.35
+      "Value": 1.0
     },
     "EnableLedFX": {
       "Value": true
     },
     "WeaponRelaxPose": {
-      "Value": false
+      "Value": true
     },
     "CrouchTilt": {
       "Value": true
@@ -59,13 +59,13 @@
       "Value": true
     },
     "LookSpeed": {
-      "Value": 0.26
+      "Value": 0.5
     },
     "LookSpeedMenu": {
       "Value": 0.6
     },
     "LookSpeedAiming": {
-      "Value": 0.6
+      "Value": 0.5
     },
     "GamepadLookSpeed": {
       "Value": 0.5
@@ -77,7 +77,7 @@
       "Value": 0.5
     },
     "StandWhenJumpToggle": {
-      "Value": true
+      "Value": false
     },
     "VoiceCommandsInChat": {
       "Value": true
@@ -103,19 +103,19 @@
       }
     },
     "FullScreen": {
-      "Value": 1
+      "Value": 0
     },
     "Fov": {
-      "Value": 100
+      "Value": 55
     },
     "VerticalSync": {
-      "Value": false
+      "Value": true
     },
     "MotionBlur": {
-      "Value": 0
+      "Value": 50
     },
     "SSAO": {
-      "Value": 0
+      "Value": 2
     },
     "SSR": {
       "Value": 2
@@ -124,25 +124,25 @@
       "Value": true
     },
     "ContactShadows": {
-      "Value": false
+      "Value": true
     },
     "GIQuality": {
       "Value": 1
     },
     "ShadowResolution": {
-      "Value": 0
+      "Value": 3
     },
     "ShadowQuality": {
-      "Value": 0
-    },
-    "ShadowUpdatesPerFrame": {
       "Value": 2
     },
+    "ShadowUpdatesPerFrame": {
+      "Value": 4
+    },
     "PlayerShadows": {
-      "Value": false
+      "Value": true
     },
     "FogQuality": {
-      "Value": 1
+      "Value": 4
     },
     "TextureSize": {
       "Value": 2
@@ -154,7 +154,7 @@
       "Value": true
     },
     "MaxQueuedRenderFrames": {
-      "Value": 3
+      "Value": 2
     },
     "ClusterBoundsCPUWorkLoad": {
       "Value": 1
@@ -166,28 +166,28 @@
       "Value": false
     },
     "TargetFramerate": {
-      "Value": 240
+      "Value": 360
     },
     "SampleNoise": {
-      "Value": false
+      "Value": true
     },
     "Dithering": {
-      "Value": false
+      "Value": true
     }
   },
   "Audio": {
     "SavedVersion": 0.11,
     "MasterVolume": {
-      "Value": 0.6
+      "Value": 1.0
     },
     "SFXVolume": {
-      "Value": 1.0
+      "Value": 0.75
     },
     "MusicVolume": {
-      "Value": 0.7
+      "Value": 0.75
     },
     "DialogVolume": {
-      "Value": 1.0
+      "Value": 0.75
     },
     "MuteInBackground": {
       "Value": false
@@ -202,7 +202,7 @@
       "Value": 1
     },
     "VoiceVolume": {
-      "Value": 1.0
+      "Value": 0.8525938
     },
     "MicrophoneVolume": {
       "Value": 1.0
@@ -503,7 +503,7 @@
         "action": "Melee",
         "type": "Button",
         "device": "Keyboard",
-        "keycode": "V",
+        "keycode": "C",
         "isNegativeAxisComp": false,
         "gamepadInput": "None",
         "axisPosGamepadInput": "None",
@@ -573,7 +573,7 @@
         "action": "SelectMelee",
         "type": "Button",
         "device": "Keyboard",
-        "keycode": "Alpha3",
+        "keycode": "Alpha1",
         "isNegativeAxisComp": false,
         "gamepadInput": "None",
         "axisPosGamepadInput": "None",
@@ -587,7 +587,7 @@
         "action": "SelectStandard",
         "type": "Button",
         "device": "Keyboard",
-        "keycode": "Alpha1",
+        "keycode": "Alpha2",
         "isNegativeAxisComp": false,
         "gamepadInput": "None",
         "axisPosGamepadInput": "None",
@@ -601,7 +601,7 @@
         "action": "SelectSpecial",
         "type": "Button",
         "device": "Keyboard",
-        "keycode": "Alpha2",
+        "keycode": "Alpha3",
         "isNegativeAxisComp": false,
         "gamepadInput": "None",
         "axisPosGamepadInput": "None",
@@ -910,7 +910,7 @@
         "action": "ToggleCommunicationMenu",
         "type": "Button",
         "device": "Keyboard",
-        "keycode": "C",
+        "keycode": "Q",
         "isNegativeAxisComp": false,
         "gamepadInput": "None",
         "axisPosGamepadInput": "None",
